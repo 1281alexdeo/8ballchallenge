@@ -55,10 +55,29 @@
 
         <Button
             android:id="@+id/btnAsk"
-            android:layout_width="200dp"
+            android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
+            android:layout_alignBaseline="@+id/btnAsk2"
+            android:layout_alignBottom="@+id/btnAsk2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="44dp"
+            android:layout_marginRight="44dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/askButton"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp"/>
+
+        <Button
+            android:id="@+id/btnAsk2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
             android:layout_centerVertical="true"
+            android:layout_marginLeft="37dp"
+            android:layout_marginStart="37dp"
             android:background="@color/colorPrimaryDark"
             android:text="@string/askButton"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
