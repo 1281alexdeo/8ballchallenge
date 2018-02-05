@@ -17,6 +17,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button buttonAsk = (Button)findViewById(R.id.btnAsk);
+
+
         final ImageView ball8 = (ImageView)findViewById(R.id.image8ball);
 
         //array to hold all 5 balls
